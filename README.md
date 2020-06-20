@@ -22,3 +22,16 @@ It definitely needs to be automated - perhaps the TIE fighters are a prime examp
 
 They ideally shouldnt affect these annotations because the classes of the 2 planes are distinctive enough, ie, they dont resemble each other at all. This however, could get problematic if the 2 classes for annotation resembled each other in some way, like say 2 species of a dog. If dog type A was augmented (by cropping, changing color tone etc.), then the image could possibly lead to someone classifying that class as dog type B. The scaling, rotation etc. will however affect the bounding box sizes and shapes and co-ordinates. Those will need to be adjusted according to the augmentation technique applied.
 
+#### 5. Describe the following augmentations in your own words
+
+Flip - flips the image along some axis, typically along x or y axis.
+
+Rotation - rotates the image along some angle, typically (+ or -) 90 degrees, 180 degrees etc.
+
+Scale - zooms in or out the image based on some scaling value (1.5x or 2x)
+
+Crop - crops the image to obtain a subset of the image
+
+Translation - translates the object in the image horizontally or vertically to give it an appearance of movement 
+
+Noise - adds some jitter to the pixel to make the image appear "grainy" and "noisy"
