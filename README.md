@@ -35,3 +35,7 @@ Crop - crops the image to obtain a subset of the image
 Translation - translates the object in the image horizontally or vertically to give it an appearance of movement 
 
 Noise - adds some jitter to the pixel to make the image appear "grainy" and "noisy"
+
+#### 6. Image annotations require the coordinates of the objects and their classes; in your option, what is needed for an audio annotation?
+
+For audio, we will perhaps need dimensions such as time clips (start and end time) of the object / person of interest. Other dimensions such as the frequency of the voices in the audio clips can also be captured. If there is a limited number of "well known" subjects in the audio clip (say a conversation between two people, Bob and Alice) - then we can also tag the subjects when annotating the clips.
